@@ -43,6 +43,7 @@ import DCT from "@/components/DCT.vue"
 import Notepad from "@/components/Notepad.vue"
 import Aircraft from "@/components/Aircraft.vue"
 import Alias from "@/components/Alias.vue"
+import Booking from "@/components/Booking.vue"
 
 
 import { onBeforeUnmount, onUnmounted, reactive, shallowReactive } from "vue"
@@ -133,6 +134,12 @@ const availableWindows = shallowReactive({
     width: 650,
     height: 750,
     },
+    booking: {
+    title: "ATC Booking",
+    component: Booking,
+    width: 400,
+    height: 400,
+    }
 } as any)
 
 for (const icao of wxAirports) {

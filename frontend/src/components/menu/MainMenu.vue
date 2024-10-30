@@ -42,6 +42,9 @@ const menuItems = reactive({
     ATFM: {
         ECFMP: "ECFMP",
     },
+    Tools: {
+        Booking: "booking",
+    },
     Documents: {
         CHECKLIST: {
             "Open position": "checklist-open-position",
